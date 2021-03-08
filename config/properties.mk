@@ -1,7 +1,5 @@
 # Fingerprint
-ifeq ($(TARGET_BUILD_VARIANT),user)
-BUILD_FINGERPRINT ?= google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
-endif
+TARGET_FORCE_BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
 
 # Gestures
 ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
