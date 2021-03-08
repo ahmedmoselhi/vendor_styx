@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     messaging \
     Stk
 
+# Styxos packages
+PRODUCT_PACKAGES += \
+    Touchgestures
+
 # Include our UI package
 -include vendor/styx-ui/config.mk
 
